@@ -1,0 +1,56 @@
+body{
+    background-image: url("images/login.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form-box{
+    background-color: white;
+   
+    padding-left: 10px;
+}
+
+
+.logindetails{
+    border: solid 1px black;
+    /* margin-left: 150px; */
+    width: 500px;
+    height: 50px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+
+.btn{
+    padding:15px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    width:500px;
+    border:none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#age-verify{
+    width:650px;
+    display: flex;
+}
+
+#page{
+    display: flex;
+    border:solid 2px whitesmoke;
+    margin:5.5% 20%;
+    height: 500px;
+    width: 800px;
+}
+
+img{
+    margin-top: 55%;
+    margin-left:20%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}

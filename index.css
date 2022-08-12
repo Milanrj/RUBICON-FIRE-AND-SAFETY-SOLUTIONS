@@ -1,0 +1,110 @@
+body {
+    margin: 0%;
+    background-color: #dcdcdc;
+}
+
+header {
+    position: sticky;
+    background-color: #fff;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    top: 0;
+    z-index: 999;
+}
+
+header img {
+    margin-left: 10px;
+}
+
+header .bisname {
+    margin-top: 0px;
+    content: 300px;
+    color: rgb(7, 129, 200);
+    font-size: 40px;
+}
+
+.header_nav {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 35px;
+    padding-left: 250px;
+    margin-left: 0px;
+    text-decoration: none;
+    font-weight: bold;
+    float: right;
+}
+
+.header_nav a {
+    text-decoration: none;
+    color: rgb(3, 3, 3);
+}
+
+#slider {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.images {
+    display: flex;
+    width: 100%;
+}
+
+.images img {
+    height: 400px;
+    width: 100%;
+    transition: all 0.15s ease;
+}
+
+.images input {
+    display: none;
+}
+
+.dots {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.dots label {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    border: solid #fff 3px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    margin: 5px;
+}
+
+.dots label:hover {
+    border: solid rgb(0, 0, 0) 3px;
+    background: rgb(0, 0, 0);
+}
+
+#img1:checked~.m1 {
+    margin-left: 0;
+}
+
+#img2:checked~.m2 {
+    margin-left: -100%;
+}
+
+#img3:checked~.m3 {
+    margin-left: -200%;
+}
+
+.icons {
+    display: flex;
+}
+
+.icon {
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.icon p {
+    color: rgb(7, 129, 200);
+    font-weight: bold;
+}
